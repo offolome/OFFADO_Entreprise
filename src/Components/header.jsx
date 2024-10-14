@@ -1,4 +1,5 @@
 import React from "react";
+import LoginBtn from "../Buttons/btn_Login";
 
 const Header = () => {
     return (
@@ -22,9 +23,8 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="nav-btn">
-                        <button className="btn" type="submit">Connexion</button>
-                    </div>
+                    
+                    <LoginBtn />
                 </nav>
 
         </div>
