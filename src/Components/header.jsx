@@ -1,5 +1,4 @@
 import React from "react";
-import LoginBtn from "../Buttons/btn_Login";
 
 const Header = () => {
     return (
@@ -24,7 +23,8 @@ const Header = () => {
                         </ul>
                     </div>
                     
-                    <LoginBtn />
+                    <span className="btn-register"><a href="#register">S'enregistrer</a></span>
+                    
                 </nav>
 
         </div>
